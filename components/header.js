@@ -39,6 +39,17 @@ function Header() {
               Blog
             </a>
           </Link>
+
+          <Link href='/carrito'>
+            <a>
+              <Image
+                width={30}
+                height={25}
+                src='/img/carrito.png'
+                alt='Imagen Carrito'
+              />
+            </a>
+          </Link>
         </nav>
       </div>
     </header>
